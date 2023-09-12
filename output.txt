@@ -1,0 +1,2 @@
+This writes to file
+This appends to file

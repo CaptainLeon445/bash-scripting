@@ -1,0 +1,194 @@
+    1  man sudo_root
+    2  sudo aptitude install python3-gdal
+    3  sudo apt-get install aptitude
+    4  chmod 600 /path/to/private/key
+    5  ssh -i /path/to/private/key username@droplet_ip_address
+    6  ssh -i /path/to/private/key username@164.92.215.20
+    7  ssh -i /path/to/private/key root@srv008
+    8  ssh -i /path/to/private/key root@srv008@164.92.215.20
+    9  ssh -i /path/to/private/key root@164.92.215.20
+   10  cd C:\Users\Hp\perzsi_dev\perzsi-frontendv2
+   11  cd ..
+   12  perzsi_dev
+   13  cd perzsi_dev
+   14  cd perzsi-frontendv2
+   15  nginx -t
+   16  sudo apt install nginx-full
+   17  nginx -t
+   18  sudo apt install nginx-core
+   19  sudo apt install nginx-core --fix-missing
+   20  nginx -t
+   21  sudo apt-get install nginx
+   22  sudo apt-get update
+   23  sudo apt-get install nginx
+   24  nginx -t
+   25  ls -l /var/log/nginx/error.log
+   26  sudo chown www-data:www-data /var/log/nginx/error.log
+   27  sudo chmod 644 /var/log/nginx/error.log
+   28  sudo service nginx restart
+   29  nginx -t
+   30  sudo chown <user>:<group> /run/nginx.pid
+   31  sudo chmod 644 /run/nginx.pid
+   32  ls -l /run/nginx.pid
+   33  sudo chown root:root /run/nginx.pid
+   34  sudo chmod 644 /run/nginx.pid
+   35  sudo service nginx restart
+   36  nginx -t
+   37  ls -ld /run/nginx.pid
+   38  sudo nano /etc/nginx/nginx.conf
+   39  sudo chown www-data:www-data /run/nginx.pid
+   40  sudo service nginx restart
+   41  nginx -t
+   42  sudo nginx -t
+   43  curl -H "Accept-Encoding: gzip" -I <your_url>
+   44  curl -H "Accept-Encoding: gzip" -I srv008.perzsi.com
+   45  sudo nginx -t
+   46  ssh root@DROPLET_IP_ADDRESS
+   47  ssh root@164.92.215.20
+   48  ssh -i /path/to/private_key root@164.92.215.20
+   49  cd ..
+   50  cd perzsi-backend
+   51  ssh root@164.92.215.20
+   52  chmod 600 /path/to/private_key
+   53  chmod 600 ~/.ssh/id_rsa
+   54  ls -l ~/.ssh
+   55  ssh-keygen -t rsa -b 4096
+   56  ssh root@164.92.215.20
+   57  ssh-copy-id root@164.92.215.20
+   58  cat ~/.ssh/id_rsa.pub
+   59  chmod 600 ~/.ssh/authorized_keys
+   60  ssh root@164.92.215.20
+   61  exit
+   62  ssh root@164.92.215.20
+   63  ssh -i /path/to/private_key root@164.92.215.20
+   64  ssh root@164.92.215.20
+   65  docker ps
+   66  C:/Users/Hp/anaconda3/Scripts/activate
+   67  conda activate base
+   68  cd ..
+   69  curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+   70  leon
+   71  curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+   72  sudo apt-get update
+   73  sudo apt-get install redis
+   74  sudo service redis-server start
+   75  redis-cli 
+   76  sudo service redis-server start
+   77  redis-cli 
+   78  cd ..
+   79  sudo service redis-server start
+   80  redis-cli 
+   81  sudo service redis-server start
+   82  redis-cli 
+   83  C:/Users/Hp/anaconda3/Scripts/activate
+   84  conda activate base
+   85  sudo service redis-server start
+   86  redis-cli 
+   87  sudo service redis-server start
+   88  redis-cli 
+   89  eval $(ssh-agent -s)
+   90  ssh-add ~/.ssh/id_rsa
+   91  ssh root@164.92.215.20
+   92  chmod 600 ~/.ssh/id_rsa
+   93  ssh root@164.92.215.20
+   94  cat ~/.ssh/id_rsa.pub
+   95  ssh root@164.92.215.20
+   96  cd ..
+   97  ls
+   98  cd perzsi_dashboard
+   99  cd perzsi-admin-dashboard
+  100  ls
+  101  ssh root@164.92.215.20
+  102  ls -l
+  103  cd .ssh
+  104  cd ..
+  105  ls
+  106  ls -l ~/.ssh
+  107  cd ~
+  108  chmod 700 .ssh
+  109  cd .ssh
+  110  chmod 600 id_rsa
+  111  chmod 644 known_hosts
+  112  ls -l
+  113  ssh root@164.92.215.20
+  114  cat ~/.ssh/id_rsa.pub
+  115  eval "$(ssh-agent -s)
+  116  ssh-add ~/.ssh/id_rsa
+  117  chmod 600 ~/.ssh/id_rsa
+  118  chmod 600 ~/.ssh/id_rsa
+  119  git config user.name
+  120  git config user.email
+  121  git config user.name
+  122  git config user.email
+  123  cat ~/.ssh/id_rsa.pub
+  124  git remote add droplet leon@164.92.215.20:~/chris
+  125  git push droplet main
+  126  scp -r C:\Users\Hp\perzsi_admin\adminapp\dist root@164.92.215.20:~/home/chris
+  127  scp -r C:\Users\Hp\perzsi_admin\adminapp\dist leon@164.92.215.20:~/home/chris
+  128  scp -r ~/Hp/perzsi_admin/adminapp/dist root@164.92.215.20:~/home/chris
+  129  scp -r /Hp/perzsi_admin/adminapp/dist root@164.92.215.20:~/home/chris
+  130  scp -r C:/Users/Hp/perzsi_admin/adminapp/dist leon@164.92.215.20:~/home/chris
+  131  scp -r /Users/Hp/perzsi_admin/adminapp/dist leon@164.92.215.20:~/home/chris
+  132  ls
+  133  scp -r /dist leon@164.92.215.20:~/home/chris
+  134  scp -r dist leon@164.92.215.20:~/home/chris
+  135  scp -r dist root@164.92.215.20:~/home/chris
+  136  scp -r dist root@164.92.215.20:~/chris
+  137  ssh root@164.92.215.20
+  138  exit
+  139  ssh root@164.92.215.20
+  140  xit
+  141  exit
+  142  ssh root@164.92.215.20
+  143  mpute ssh-key list
+  144  doctl compute ssh-key list
+  145  curl -L https://github.com/digitalocean/doctl/releases/latest/download/doctl-<PLATFORM> -o doctl
+  146  chmod +x doctl
+  147  sudo mv doctl /usr/local/bin
+  148  ssh root@164.92.215.20
+  149  clear
+  150  exit
+  151  ssh root@164.92.215.20
+  152  exit
+  153  sudo systemctl start redis
+  154  sudo service redis-server start
+  155  exit
+  156  ps
+  157  date
+  158  pwd
+  159  ls
+  160  echo "Hello Chris"
+  161  ls man
+  162  man
+  163  ls
+  164  man ls
+  165  man echo
+  166  clear
+  167  which bash
+  168  vi learning_bash.sh
+  169  ls
+  170  mkdir learning_bash.sh 
+  171  ls
+  172  ls -a
+  173  clear
+  174  chmod u+x learning_bash.sh
+  175  sh learning_bash.sh
+  176  country=Nigeria
+  177  echo $country
+  178  New=$country
+  179  echo $New
+  180  sh learning_bash.sh chris
+  181  clear
+  182  chmod u+x CommandLine_Arg.sh
+  183  sh CommandLine_Arg.sh Chris Ope Yemi
+  184  chmod u+x WriteToFile.sh
+  185  sh WriteToFile.sh
+  186  chmod u+x AppendToFile.sh
+  187  sh AppendToFile.sh
+  188  sh WriteToFile.sh
+  189  sh AppendToFile.sh
+  190  clear
+  191  ls > file.txt
+  192  history
+  193  clear
+  194  history > previousCommands.txt
